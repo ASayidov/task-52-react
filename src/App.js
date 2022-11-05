@@ -1,14 +1,15 @@
 import "./App.css"
-import { Button, Input } from "./Button"
+import { Card } from "./Card"
+
 
 function App() {
-
 return (
 <div className="App">
- <h1>Hello world</h1>
- <Input />
- <Button />
-</div>
+ <h1>HTML/CSS Project ideas</h1>
+ <Card />
+ <Card />
+ <Card />
+ </div>
 )
 }
 
