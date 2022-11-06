@@ -6,9 +6,9 @@ function App() {
 return (
 <div className="App">
  <h1>HTML/CSS Project ideas</h1>
- <Card />
- <Card />
- <Card />
+ <Card cardTitle = <i>Card first</i>  color = "red"/>
+ <Card cardTitle = <i>Card second</i> color = "blue"/>
+ <Card cardTitle = <i>Card third</i>  color = "green"/>
  </div>
 )
 }
